@@ -1,0 +1,44 @@
+.body{
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+.container{
+    background-color: #f1f1f1;
+    padding: 20px;
+    
+    height:200px;
+    border: 1px solid black;
+    text-align: center;
+    
+}
+
+.row:after {
+    content: "";
+    display: table;
+    border: 1px solid black;
+    border-collapse: separate;
+    clear: both;
+  }
+
+.col1 {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    height: 300px; 
+  }
+
+.col2 {
+    float:left;
+    width: 20%;
+    padding: 10px;
+    
+  }
+
+.col3{
+    float: right;
+    width: 20%;
+    padding: 10px;
+    height: 300px; 
+}

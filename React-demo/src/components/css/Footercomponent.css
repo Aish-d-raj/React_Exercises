@@ -1,0 +1,12 @@
+.body{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.footer{
+    padding: 10px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border:1px solid black;
+    border-collapse: separate;
+}
